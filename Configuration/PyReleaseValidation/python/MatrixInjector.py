@@ -104,7 +104,7 @@ class MatrixInjector(object):
             }
 
         self.defaultHarvest={
-            "EnableDQMHarvest" : 1,
+            "EnableHarvesting" : "True",
             "DQMUploadUrl" : self.dqmgui,
             "DQMConfigCacheID" : None
             }
